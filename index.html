@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <div class="brand"><img src="logo.png" alt="spotify">Spotify</div>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div class="songList">
+            <h1>Best of music:no copyright Sounds</h1>
+            <div class="songItemContainer" id="atc">
+                <div class="songitem">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3rBDeidn-dawyxts1L4BALyTJxsKhf1BTlg&usqp=CAU" alt="error">
+                    <span class="songName">Unstopable</span>
+                    <span class="songlistplay"><span class="timespamp">5:34</span><i class="fa-solid fa-circle-play songItemPlay" id="0"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3rBDeidn-dawyxts1L4BALyTJxsKhf1BTlg&usqp=CAU" alt="error">
+                    <span class="songName">Unstopable</span>
+                    <span class="songlistplay"><span class="timespamp">5:34</span><i class="fa-solid fa-circle-play songItemPlay" id="1"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3rBDeidn-dawyxts1L4BALyTJxsKhf1BTlg&usqp=CAU" alt="error">
+                    <span class="songName">Unstopable</span>
+                    <span class="songlistplay"><span class="timespamp">5:34</span><i class="fa-solid fa-circle-play songItemPlay" id="2"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3rBDeidn-dawyxts1L4BALyTJxsKhf1BTlg&usqp=CAU" alt="error">
+                    <span class="songName">Unstopable</span>
+                    <span class="songlistplay"><span class="timespamp">5:34</span><i class="fa-solid fa-circle-play songItemPlay" id="3"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3rBDeidn-dawyxts1L4BALyTJxsKhf1BTlg&usqp=CAU" alt="error">
+                    <span class="songName">Unstopable</span>
+                    <span class="songlistplay"><span class="timespamp">5:34</span><i class="fa-solid fa-circle-play songItemPlay" id="4"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3rBDeidn-dawyxts1L4BALyTJxsKhf1BTlg&usqp=CAU" alt="error">
+                    <span class="songName">Unstopable</span>
+                    <span class="songlistplay"><span class="timespamp">5:34</span><i class="fa-solid fa-circle-play songItemPlay" id="5"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3rBDeidn-dawyxts1L4BALyTJxsKhf1BTlg&usqp=CAU" alt="error">
+                    <span class="songName">Unstopable</span>
+                    <span class="songlistplay"><span class="timespamp">5:34</span><i class="fa-solid fa-circle-play songItemPlay" id="6"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3rBDeidn-dawyxts1L4BALyTJxsKhf1BTlg&usqp=CAU" alt="error">
+                    <span class="songName">Unstopable</span>
+                    <span class="songlistplay"><span class="timespamp">5:34</span><i class="fa-solid fa-circle-play songItemPlay" id="7"></i></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="songBanner">
+            <img src="cover/back2.jpg" alt="" >
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="songplay">
+            <span id="myProgressBarSongName" style="margin-left:2px"></span>
+            <img src="https://i.pinimg.com/originals/88/4a/40/884a408310b28171aa1018f77dee2602.gif" alt="error" id="gif">
+        </div>
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0" class="songName">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-step-backward previous" id="previous"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-step-forward forward" id="forward"></i>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/6f601fbadd.js" crossorigin="anonymous"></script>
+    <script src="spotify.js"></script>
+</body>
+</html>
